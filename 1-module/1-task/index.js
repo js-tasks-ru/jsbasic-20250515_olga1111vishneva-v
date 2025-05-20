@@ -1,4 +1,5 @@
 function factorial(n) {
+
   if (n < 0) {
     return "Факториал отрицательного числа не существует";
   }
@@ -13,3 +14,4 @@ function factorial(n) {
 
   return factorialResult;
 }
+
