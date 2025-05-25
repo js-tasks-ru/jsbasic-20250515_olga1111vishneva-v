@@ -1,4 +1,3 @@
-
 let calculator = {
   a: 0,
   b: 0,
