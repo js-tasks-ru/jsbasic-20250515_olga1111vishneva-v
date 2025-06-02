@@ -1,3 +1,8 @@
 function camelize(str) {
-  // ваш код...
+  return str
+  .split('-')
+  .map((text, index) => {
+    return index === 0 ? text : text.charAt(0).toUpperCase() + text.slice(1);
+  })
+  .join ('');
 }
