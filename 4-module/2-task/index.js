@@ -8,3 +8,4 @@ function makeDiagonalRed(table) {
     }
   }
 }
+
