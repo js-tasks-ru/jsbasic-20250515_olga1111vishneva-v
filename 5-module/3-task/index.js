@@ -11,9 +11,8 @@ function initCarousel() {
     const slideWidth = slides[0].offsetWidth;
 
     carouselInner.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
-
-    rightButton.style.display = (currentIndex === 0) ? 'none' : '';
-    leftButton.style.display = (currentIndex === allSlides - 1) ? 'none' : '';
+    rightButton.style.display = (currentIndex === allSlides - 1) ? 'none' : '';
+    leftButton.style.display = (currentIndex === 0) ? 'none' : '';
   }
 
   leftButton.style.display = 'none';
